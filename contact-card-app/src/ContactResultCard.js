@@ -19,7 +19,7 @@ function ContactNameCard({ contact }) {
       <p>Name: {contact.name}</p>
       <p>Email: {contact.email}</p>
       <p>
-        Phone: {showFormattedNumber ? formatPhoneNumber(contact.phone) : <button onClick={handleContactButtonClick}>Show Number</button>}
+        Phone: {showFormattedNumber ? formatPhoneNumber(contact.phone) : <button onClick={handleContactButtonClick}>Contact me</button>}
       </p>
     </div>
   );

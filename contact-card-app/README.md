@@ -16,4 +16,4 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-The phone number will be formatted when clicked the `show number` botton.
+The phone number will be formatted when clicked the `Contact me` botton.
