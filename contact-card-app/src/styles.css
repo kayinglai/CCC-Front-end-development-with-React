@@ -1,0 +1,72 @@
+/* styles.css */
+
+.contact-card {
+    display: flex;
+    justify-content: space-between;
+    background-color: #e6b42a; /* Yellow background color */
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .input-card,
+  .result-card {
+    width: calc(50% - 10px); /* Set width for left and right sections */
+  }
+  
+  .input-card {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .input-card h2 {
+    margin-top: 0;
+  }
+  
+  .input-card input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .input-card button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .input-card button:hover {
+    background-color: #0056b3;
+  }
+  
+  .result-card {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .result-card h2 {
+    margin-top: 0;
+  }
+  
+  .result-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .result-card p {
+    margin-top: 0;
+  }
+  
+  .result-card .formatted-phone {
+    font-weight: bold;
+  }
+  
